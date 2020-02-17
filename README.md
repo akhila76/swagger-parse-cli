@@ -1,5 +1,7 @@
 # swagger-parse-cli
 This lightweight CLI tool is designed to parse and project required data from swagger specs as required.
+* Supports both Swagger 2.0 and OpenAPI 3.0
+* An easy-to-use tool to visualize APIs and Operations as plain text without the added burden of providing output templates.
 
 ## Install
 ```
