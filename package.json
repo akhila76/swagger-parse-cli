@@ -1,0 +1,28 @@
+{
+  "name": "swagger-parse-cli",
+  "version": "1.0.0",
+  "description": "A command line tool to parse swagger/openapi docs.",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swagger",
+    "openapi",
+    "parse",
+    "list",
+    "paths"
+  ],
+  "author": "Akhila Indukur",
+  "license": "ISC",
+  "bin": {
+    "swagger-parse-cli": "./bin/index.js"
+  },
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "console.table": "^0.10.0",
+    "easy-table": "^1.1.1",
+    "swagger-parser": "^8.0.4",
+    "yargs": "^15.1.0"
+  }
+}
